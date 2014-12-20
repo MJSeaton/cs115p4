@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+@charset "UTF-8";
+Header img{
+    vertical-align: middle;
+}
+Nav ul{
+    
+    background: #efefef;
+    background: linear-gradient(top,#efefef 0%, #bbbfef 100%) repeat-y 50% 0;
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%) repeat-y 50% 0; 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%) repeat-y 50% 0; 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;   
+}
+Nav ul li{
+    background-color: none;
+    color: white;
+    display: inline-block;
+    list-style-type: armenian;
+}
+body,
+html{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: white;
+}
+#wrap{
+    width: 66%;
+    margin: 0 auto;
+    background: #2EC8E6;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.recipe_Content_Header{
+    font-family: 'Tangerine', serif;
+    font-size: 400%;
+    font-weight: bold;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+    
+}
+.recipe_Content_Header > img{
+    width: 33%;
+    height: auto;
+}
+
+.ingredients_And_Amounts{
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+    
+}
+
+.cooking_Instructions{
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.bar_element{
+    width: 100%;
+    background-image: url("/assets/BAR_ICON.PNG");
+    background-repeat: repeat;
+    float:left;
+}
+.title_element{
+    font-family: 'Tangerine', serif;
+    font-size: 800%;
+    font-weight: bold;
+    text-align: center;
+    color: #2EC8E6;
+}
+.subtitle_element{
+    align-content: left;
+    font-family: 'Tangerine', serif;
+    font-size: 400%;
+    font-weight: bold;
+    color: #FFF;
+    
+}
+.amount{
+    float:left;
+}
+.recipe_Content.h1{
+    font-family: 'Tangerine', serif;
+    font-size: 600%;
+    font-weight: bold;
+    text-align: left;
+}

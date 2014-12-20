@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+@charset "UTF-8";
+Nav ul{
+    float: left;
+    width: 10px;
+    background: #efefef;
+    background: linear-gradient(top,#efefef 0%, #bbbfef 100%) repeat-y 50% 0;
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%) repeat-y 50% 0; 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%) repeat-y 50% 0; 
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;   
+}
